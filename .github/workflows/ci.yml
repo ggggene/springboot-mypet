@@ -1,21 +1,19 @@
-# workflow 이름 지정
-name: CI
+name: CI                     # 워크플로의 이름 지정
 
-# workflow 시작될 조건 지정
-on:
+on:                          # 워크플로가 시작될 조건 지정
   push:
     branches: [ main ]
 
 jobs:
   build:
-    runs-on: ubuntu-latest # 실행 환경 지정
-    # 실행 스텝 지정
-    steps:
+    runs-on: ubuntu-latest   # 실행 환경 지정
+
+    steps:                   # 실행 스텝 지정
       - uses: actions/checkout@v3
 
       - uses: actions/setup-java@v3
         with:
-          distribution: 'zulu'
+          distribution: 'corretto'
           java-version: '17'
 
       - name: Grant execute permission for gradlew
