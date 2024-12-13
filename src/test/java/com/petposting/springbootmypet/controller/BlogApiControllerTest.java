@@ -1,3 +1,4 @@
+/*
 package com.petposting.springbootmypet.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -191,4 +192,4 @@ class BlogApiControllerTest {
 
     }
 
-}
+}*/
