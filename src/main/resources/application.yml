@@ -1,6 +1,6 @@
-server:
-  port: 5000
-
+#server:
+#  port: 5000
+#
 spring:
   jpa:
     # 전송 쿼리 확인
