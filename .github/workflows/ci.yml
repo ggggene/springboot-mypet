@@ -6,7 +6,7 @@ on:                          # 워크플로가 시작될 조건 지정
 
 jobs:
   build:
-    runs-on: ubuntu-latest   # 실행 환경 지정
+    runs-on: ubuntu-22.04   # 실행 환경 지정
 
     steps:                   # 실행 스텝 지정
       - uses: actions/checkout@v3
