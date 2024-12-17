@@ -48,3 +48,7 @@ dependencies { //필요한 기능의 의존성 주입
 test {
     useJUnitPlatform()
 }
+
+jar {
+    enabled = false
+}

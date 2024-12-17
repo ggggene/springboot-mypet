@@ -31,6 +31,6 @@ spring:
 
 # JWT 토큰 설정
 jwt:
-  issuer: ajufresh@gmail.com # 이슈발급자 설정
-  secret_key: study-springboot # 비밀키 설정
+  issuer: ${JWT_ISSURE} # 이슈발급자 설정
+  secret_key: ${JWT_SECRET_KEY} # 비밀키 설정
 
